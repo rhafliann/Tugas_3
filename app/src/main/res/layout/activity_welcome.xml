@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	tools:context=".WelcomeActivity">
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:fontFamily="@font/montserrat_semi_bold"
+		android:text="@string/welcome_back"
+		android:textSize="35dp"
+		android:paddingLeft="30dp"
+		android:paddingTop="70dp"
+		android:textAppearance=" "/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:fontFamily="@font/montserrat_light"
+		android:paddingLeft="30dp"
+		android:text="Sign in to continue"
+		android:textAppearance=""
+		android:paddingTop="15dp"
+		android:textSize="18dp"
+		/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/username"
+		android:paddingTop="50dp"
+		android:paddingLeft="30dp"
+		android:textSize="25dp"
+		android:textAppearance=""
+		/>
+
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:hint="Enter your username"
+		android:paddingTop="15dp"
+		android:paddingLeft="30dp"
+		/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/password"
+		android:paddingTop="20dp"
+		android:paddingLeft="30dp"
+		android:textSize="25dp"
+		android:textAppearance=""
+		/>
+
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:hint="Enter your username"
+		android:paddingTop="15dp"
+		android:paddingLeft="30dp"
+		/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/forgot_password"
+		android:paddingTop="20dp"
+		android:paddingLeft="30dp"
+		android:textSize="18dp"
+		android:textAppearance=""
+		android:layout_gravity="end"
+		android:paddingBottom="50dp"
+		android:paddingRight="10dp"
+		android:fontFamily="@font/montserrat_semi_bold"
+		/>
+
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:layout_marginHorizontal="30dp"
+		android:backgroundTint="#FB6060"
+		android:text="Log In"
+		android:textColor="@color/colorPrimary"/>
+
+</LinearLayout>
